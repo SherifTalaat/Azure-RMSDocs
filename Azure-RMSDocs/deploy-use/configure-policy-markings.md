@@ -79,6 +79,8 @@ You can use the following variables in the text string for your header, footer, 
 
 - `${User.Name}` for the owner of the document or email, by the Windows signed in user name. For example: rsimone
 
+- `${User.DisplayName}` for the owner of the document or email, by the display name of the Windows signed in user name. For example: Megan Brown
+
 - `${User.PrincipalName}` for the owner of the document or email, by the Azure Information Protection client signed in email address (UPN). For example: rsimone@vanarsdelltd.com
 
 - `${Event.DateTime}` for the date and time when the selected label was set. For example: 8/16/2016 1:30 PM
